@@ -1,10 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 :root {
   --orange:#ED7D31;
   --darkGray:#4F4A45;
   --lightGray:#6C5F5B;
   --light:#F6F1EE;
-  background-color: var(--lightGray);
-  // --max-width: 1100px;
+  background-color: var(--light);
+  
+}
+
+.heading{
+  
+}
+
+
+
+// --max-width: 1100px;
   // --border-radius: 12px;
   // --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
   //   'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -43,7 +57,9 @@
   // --callout-border-rgb: 172, 175, 176;
   // --card-rgb: 180, 185, 188;
   // --card-border-rgb: 131, 134, 135;
-}
+
+
+
 
 // @media (prefers-color-scheme: dark) {
 //   :root {
